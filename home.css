@@ -1,0 +1,24 @@
+
+.main{
+    height: auto;
+    width: 50%;
+    opacity: 40%;
+
+}
+
+.introduction {
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.introduction:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://www.deltastore.in/wp-content/uploads/2020/11/61rlb0IYNuL._SL1500_.jpg") center center;
+    opacity: .4;
+}
